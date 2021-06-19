@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+<TextView
+    android:text="Tính điểm trung bình HK"
+    android:textSize="15sp"
+    android:layout_margin="15dp"
+    android:textColor="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/layoutlist"
+    ></LinearLayout>
+<Button
+    android:textAllCaps="false"
+    android:paddingRight="10dp"
+    android:drawableRight="@drawable/ic_baseline_add_24"
+    android:textColor="@color/white"
+    android:text="Thêm điểm"
+    android:id="@+id/btnAdd"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+
+    android:layout_width="wrap_content"
+    android:background="@drawable/round_grey"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:paddingRight="10dp"
+        android:drawableRight="@drawable/round_grey"
+        android:textColor="@color/white"
+        android:text="Tính điểm trung bình học kỳ"
+        android:id="@+id/btnsubmitdiem"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/round_grey"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
